@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import pandas as pd
 
 # ===== 0. TIÊU ĐỀ =====
@@ -69,4 +69,4 @@ st.bar_chart(df.set_index("Họ tên")["Tổng kết"])
 
 # ===== 9. HỌ TÊN + MSSV Ở CUỐI TRANG (CHỮ NHỎ) =====
 st.divider()
-st.caption("Người thực hiện: Thiên Đại Dũng - MSSV: ")
+st.caption("Người thực hiện: Hán Trương Hoàng Thủ - MSSV: 058208007961")
